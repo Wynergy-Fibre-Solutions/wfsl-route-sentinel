@@ -1,0 +1,23 @@
+{
+  "name": "wfsl-route-sentinel",
+  "version": "0.1.0",
+  "description": "WFSL Route Sentinel: deterministic Next.js route graph inspection and governance evidence output.",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "wfsl-route-sentinel": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "sentinel": "node dist/index.js",
+    "dev": "node --loader ts-node/esm src/index.ts",
+    "lint": "node dist/index.js --help"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
