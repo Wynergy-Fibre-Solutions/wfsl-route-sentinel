@@ -1,0 +1,9 @@
+﻿{
+    "timestamp":  "2026-01-13T15:37:22.7620423+00:00",
+    "status":  "completed",
+    "notes":  "wfsl-route-sentinel verification run",
+    "outputs":  {
+                    "environment":  "evidence\\local-machine\\environment.json",
+                    "executionContext":  "evidence\\local-machine\\execution-context.json"
+                }
+}
