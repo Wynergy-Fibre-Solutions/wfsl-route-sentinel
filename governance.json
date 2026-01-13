@@ -1,0 +1,19 @@
+{
+  "framework": "WFSL",
+  "edition": "Community",
+  "reliance": "non-production",
+  "permissions": {
+    "source_access": true,
+    "local_execution": true,
+    "experimentation": true
+  },
+  "prohibitions": {
+    "production_use": true,
+    "audit_claims": true,
+    "regulatory_positioning": true,
+    "commercial_reliance": true
+  },
+  "authority": "wfsl-core",
+  "licence_reference": "WFSL-LICENSING-AND-RELIANCE.md",
+  "contact": "licensing@wfsl.uk"
+}
