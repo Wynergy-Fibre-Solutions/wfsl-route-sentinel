@@ -1,0 +1,41 @@
+{
+  "wfsl_verification": "WFSL-LOCAL-VERIFY-v1",
+  "repo": {
+    "path": "C:\\Users\\Paul Wynn\\github\\wfsl-route-sentinel",
+    "remote": "https://github.com/Wynergy-Fibre-Solutions/wfsl-route-sentinel.git",
+    "head": "8521a711d33e06e0c7fe9173beed552b7dfe32a1"
+  },
+  "timestamp_utc": "2026-01-17T23-02-53-387Z",
+  "checks": {
+    "required_files_present": true,
+    "missing_files": [],
+    "license_apache_2_0_detected": true
+  },
+  "artifacts": {
+    "required_files": [
+      {
+        "path": "LICENSE",
+        "exists": true,
+        "sha256": "fa0c1f047b62ba34fbfa9a8ae21dd8d24244b1b19bf4d0f93058cc37ef1ef6d4"
+      },
+      {
+        "path": "README.md",
+        "exists": true,
+        "sha256": "25c504542715132bdbbcd56db02ad3b45a5be5c1d7b0068bc305da2b17544449"
+      },
+      {
+        "path": "GOVERNANCE.md",
+        "exists": true,
+        "sha256": "6ce874e76bd171fc164a8e9ac45d556d2c8e68cb39d4d2f4a83425665f629791"
+      },
+      {
+        "path": "VERIFICATION.md",
+        "exists": true,
+        "sha256": "ad8323a199631536c3fc1bf1c377e2356ca7590d2daabd15a1dc47fe9b1346b3"
+      }
+    ]
+  },
+  "outcome": {
+    "pass": true
+  }
+}
